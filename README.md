@@ -1,3 +1,74 @@
-# What the hell is this?
-This is a temporary place to distribute SSP releases.
-Head over to the [Releases](https://github.com/Gapva/SSPReleases/releases/latest/) tab to view available downloads.
+# Sound Space Plus [Temporary Releases]
+
+While you're here, join our discord in [here](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+
+# Downloading and playing the game
+
+## IMPORTANT!
+
+- There's no point in git cloning this repository.
+
+  - Head to the [releases tab](https://github.com/Gapva/SSPReleases/releases) to Download this game.
+
+- As of the Apr16 Update, Androids don't have a User Folder, this is temporary and will be changed in the future.
+
+### For Windows users:
+
+- In [releases](https://github.com/Gapva/SSPReleases/releases), press on the `windows.zip` folder to download it
+
+- Once downloaded, do the following:
+  - Right click the folder and extract it to either a custom folder [RECOMMENDED] or the folder you downloaded [NOT RECOMMENDED]. Alternatively, you can open the zip file and drag the contents inside to a custom folder.
+  - Run SoundSpacePlus.exe to play this, easy I know.
+
+### For Linux users:
+
+- In [releases](https://github.com/Gapva/SSPReleases/releases, press on the `linux.zip` folder to download it
+
+- Once downloaded do the following:
+  - If you have a GUI File Explorer:
+    - In Downloads, right click and extract the files like on Windows OR open the zip and extract it
+  - If you don't have a GUI File Explorer:
+    - Open your terminal and type: `mkdir SSP && unzip -r linux.zip` to make a SSP directory and unzip linux.zip to that directory (REMEMBER TO INSTALL THE UNZIP PACKAGE USING YOUR PACKAGE MANAGER!!!)
+    
+### For Android Users:
+
+- Download gles2 on older devices, or gles3 on newer devices
+- Install the apk on your phone
+
+### If you can't execute your game on Linux
+
+- Open your terminal and do the following:
+```bash
+$ cd ~/DIRECTORY_OF_YOUR_SSP_FOLDER
+$ sudo chmod +x SoundSpacePlus.x86_64
+# Alternatively you can use
+# sudo chmod 777 SoundSpacePlus.x86.64
+```
+
+# Troubleshooting
+
+As everything you download online, executing may or may not work.
+
+- [WINDOWS ONLY] If the game closes by iteself
+  - Download and install [vc_redist](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+  - Open the game.
+  - If your game still doesn't work, head to the [Discord](https://discord.gg/ssp) and head to the support channel.
+  
+  
+# User folder location
+
+- Windows:
+
+`%appdata%\SoundSpacePlus`
+
+- Linux:
+
+`~/.local/share/SoundSpacePlus`
+
+- Android:
+
+Currently not available (Apr16 update)
+
+### Alternatively you can access the user folder if you go into settings and press User Folder
+
+*Repository by Gapva (pyrule), README writen and updated by mycpphurts (Helmeto)*
