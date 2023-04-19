@@ -22,7 +22,7 @@ While you're here, join our discord in [here](https://discord.gg/ssp)
 
 ### For Linux users:
 
-- In [releases](https://github.com/Gapva/SSPReleases/releases, press on the `linux.zip` folder to download it
+- In [releases](https://github.com/Gapva/SSPReleases/releases), press on the `linux.zip` folder to download it
 
 - Once downloaded do the following:
   - If you have a GUI File Explorer:
