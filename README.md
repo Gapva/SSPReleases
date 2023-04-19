@@ -1,6 +1,6 @@
 # Sound Space Plus [Temporary Releases]
 
-While you're here, join our discord in [here](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+While you're here, join our discord in [here](https://discord.gg/ssp)
 
 # Downloading and playing the game
 
