@@ -13,6 +13,7 @@ While you're here, join our discord in [here](https://discord.gg/ssp)
     - [Making SSP executable on Linux](#dl-linuxfix)
 - [Troubleshooting](#tr)
 - [User Folder location](#usr)
+- [Updating the game](#upd)
 
 # Downloading and playing the game <a href="#dl-title" id="dl"/>
 
@@ -84,4 +85,16 @@ Currently not available (Apr16 update)
 
 ### Alternatively you can access the user folder if you go into settings and press User Folder
 
-*Repository by Gapva (pyrule), README written and updated by mycpphurts (Helmeto)*
+# Updating your game <a href="#upd-title" id="upd"/>
+
+As the time goes, we all have the necessity to update what's old correct?
+
+### Here's how you do it then.
+
+- Head to the [latest version of the game](https://github.com/Gapva/SSPReleases/releases/latest) and Download it
+- On the location where your folder is delete or replace every file inside it
+  - Keep in mind that you <ins>**__DON'T__**</ins> lose your passes, replays or maps when update the game, those are located in the [user folder](#usr)
+  - [Apr24 Update] Windows users now have an integrated auto-updater as of the Apr24 update. Linux, Android and MacOS auto-updaters will come soon. [Click here to access the first auto-updater](https://github.com/Gapva/SSPReleases/releases/download/apr24-rabbit/windows.zip)
+- And you're done. You are now up-to-date.
+
+*Repository by Gapva (pyrule), README written and updated by mycpphurts (Helmeto) with the help of the SSP Staff Team*
