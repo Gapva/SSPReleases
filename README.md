@@ -40,7 +40,7 @@ While you're here, join our discord in [here](https://discord.gg/ssp)
   - If you have a GUI File Explorer:
     - In Downloads, right click and extract the files like on Windows OR open the zip and extract it
   - If you don't have a GUI File Explorer:
-    - Download your game normally and `cd` to your Downloads folder (usually `cd ~/Downloads`
+    - Download your game normally and `cd` to your Downloads folder (usually `cd ~/Downloads`)
     - Inside your downloads folder type: `mkdir SSP && unzip linux.zip -d SSP/` to make a SSP directory and unzip linux.zip to that directory (REMEMBER TO INSTALL THE UNZIP PACKAGE USING YOUR PACKAGE MANAGER!!!)
     
 ### For Android Users: <a href="#dl-main" id="dl-phone"/>
