@@ -2,9 +2,21 @@
 
 While you're here, join our discord in [here](https://discord.gg/ssp)
 
-# Downloading and playing the game
+# Table of contents
+(Stuff you will see in this README)
 
-## IMPORTANT!
+- [Downloading the game](#dl)
+    - [Important info before Downloading](#dl-imp)
+        - [Windows](#dl-win)
+        - [Linux](#dl-penguin)
+        - [Android](#dl-phone)
+    - [Making SSP executable on Linux](#dl-linuxfix)
+- [Troubleshooting](#tr)
+- [User Folder location](#usr)
+
+# Downloading and playing the game <a href="#dl-title" id="dl"/>
+
+## IMPORTANT! <a href="#dl-main" id="dl-imp"/>
 
 - There's no point in git cloning this repository.
 
@@ -12,7 +24,7 @@ While you're here, join our discord in [here](https://discord.gg/ssp)
 
 - As of the Apr16 Update, Androids don't have a User Folder, this is temporary and will be changed in the future.
 
-### For Windows users:
+### For Windows users: <a href="#dl-main" id="dl-win"/>
 
 - In [releases](https://github.com/Gapva/SSPReleases/releases), press on the `windows.zip` folder to download it
 
@@ -20,7 +32,7 @@ While you're here, join our discord in [here](https://discord.gg/ssp)
   - Right click the folder and extract it to either a custom folder [RECOMMENDED] or the folder you downloaded [NOT RECOMMENDED]. Alternatively, you can open the zip file and drag the contents inside to a custom folder.
   - Run SoundSpacePlus.exe to play this, easy I know.
 
-### For Linux users:
+### For Linux users: <a href="#dl-main" id="dl-penguin"/>
 
 - In [releases](https://github.com/Gapva/SSPReleases/releases), press on the `linux.zip` folder to download it
 
@@ -28,14 +40,15 @@ While you're here, join our discord in [here](https://discord.gg/ssp)
   - If you have a GUI File Explorer:
     - In Downloads, right click and extract the files like on Windows OR open the zip and extract it
   - If you don't have a GUI File Explorer:
-    - Open your terminal and type: `mkdir SSP && unzip -r linux.zip` to make a SSP directory and unzip linux.zip to that directory (REMEMBER TO INSTALL THE UNZIP PACKAGE USING YOUR PACKAGE MANAGER!!!)
+    - Download your game normally and `cd` to your Downloads folder (usually `cd ~/Downloads`
+    - Inside your downloads folder type: `mkdir SSP && unzip linux.zip -d SSP/` to make a SSP directory and unzip linux.zip to that directory (REMEMBER TO INSTALL THE UNZIP PACKAGE USING YOUR PACKAGE MANAGER!!!)
     
-### For Android Users:
+### For Android Users: <a href="#dl-main" id="dl-phone"/>
 
 - Download gles2 on older devices, or gles3 on newer devices
 - Install the apk on your phone
 
-### If you can't execute your game on Linux
+## If you can't execute your game on Linux <a href="#dl-trouble" id="dl-linuxfix"/>
 
 - Open your terminal and do the following:
 ```bash
@@ -45,7 +58,7 @@ $ sudo chmod +x SoundSpacePlus.x86_64
 # sudo chmod 777 SoundSpacePlus.x86.64
 ```
 
-# Troubleshooting
+# Troubleshooting <a href="#tlsh-title" id="tr"/>
 
 As everything you download online, executing may or may not work.
 
@@ -55,7 +68,7 @@ As everything you download online, executing may or may not work.
   - If your game still doesn't work, head to the [Discord](https://discord.gg/ssp) and head to the support channel.
   
   
-# User folder location
+# User folder location <a href="#usr-title" id="usr"/>
 
 - Windows:
 
@@ -71,4 +84,4 @@ Currently not available (Apr16 update)
 
 ### Alternatively you can access the user folder if you go into settings and press User Folder
 
-*Repository by Gapva (pyrule), README writen and updated by mycpphurts (Helmeto)*
+*Repository by Gapva (pyrule), README written and updated by mycpphurts (Helmeto)*
